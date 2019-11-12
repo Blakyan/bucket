@@ -1,0 +1,23 @@
+#bucket {
+     /*  border: 2px yellow solid; */
+      padding: 0.75rem;
+      margin-top: 2em;
+}
+
+#product {
+      /* border: 2px red solid; */
+      padding: 0.75rem;
+      margin-top: 2em;
+}
+
+.item {
+      margin-top: 1rem;
+}
+
+#btn-panier, #btn-panier1, #btn-panier2, #btn-panier3 {
+      color: white;
+      background-color: rgb(0, 217, 255);
+      border-radius: 0.4rem;
+      padding: 0.25rem;
+      border: none;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>Panier</title>
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+      <div class="container-fluid">
+            <div class="row justify-content-around">
+                  <section id="bucket" class="col-11 col-md-8 col-lg-5">
+                        <h3 class="text-center"> Votre Panier</h3>
+                        <table class="table">
+                              <thead>
+                                    <tr>
+                                    <th scope="col">Article</th>
+                                    <th scope="col">Nombre</th>
+                                    <th scope="col">Prix unitaire (XAF) </th>
+                                    <th scope="col">Prix total (XAF) </th>
+                                    </tr>
+                              </thead>
+                              <tbody id="tableau">
+                                    <!-- <tr class="ar">
+                                          <th id="pdtname"scope="row">Haut parleur BOSE</th>
+                                          <td id="nbr">1</td>
+                                          <td id="pu">35000</td>
+                                          <td id="pt"></td>
+                                    </tr>
+                                    <tr class="ar">
+                                          <th id="pdtname" scope="row">Imac</th>
+                                          <td id="nbr">5</td>
+                                          <td id="pu">120000</td>
+                                          <td id="pt"></td>
+                                    </tr>
+                                    <tr  class="ar">
+                                          <th id="pdtname" scope="row">Ipod</th>
+                                          <td id="nbr">10</td>
+                                          <td id="pu">50000</td>
+                                          <td id="pt"></td>
+                                    </tr> -->
+                                    <tr id="tr">
+                                    <th scope="row">Total</th>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="tt"></td>
+                                    </tr>
+                              </tbody>
+                         </table>
+                  </section>
+                  <section id="product" class="col-12 col-md-10 col-lg-7 order-lg-first">
+                        <div class="row justify-content-center">
+                              <div class="col-6 item d-flex flex-column justify-content-center">
+                                    <img src="./images/bose.jpg" class="img-fluid" alt="Bose">
+                                    <h5 class="text-center">
+                                          <span id="pn">Haut parleur BOSE</span>:
+                                          <span id="pp">35000</span>XAF
+                                    </h5>
+                                    <button id="btn-panier" class="mx-auto">Ajouter au panier</button>
+                              </div>
+                              <div class="col-6 item d-flex flex-column justify-content-center">
+                                    <img src="" class="img-fluid" alt="Ipod">
+                                    <h5 class="text-center">
+                                          <span id="pn">Ipod</span>:
+                                          <span id="pp">50000</span>XAF
+                                    </h5>
+                                    <button id="btn-panier1" class="mx-auto">Ajouter au panier</button>
+                              </div>
+                              <div class="col-6 item d-flex flex-column justify-content-center">
+                                    <img src="./images/imac.jpg" class="img-fluid"  alt="Imac">
+                                    <h5 class="text-center">
+                                          <span id="pn">Imac</span>: 
+                                          <span id="pp">120000</span>XAF
+                                    </h5>
+                                    <button id="btn-panier2" class="mx-auto">Ajouter au panier</button>
+                              </div>
+                              <div class="col-6 item d-flex flex-column justify-content-center">
+                                    <img src="" class="img-fluid" alt="Clavier_sans_fil">
+                                    <h5 class="text-center">
+                                          <span id="pn">Clavier sans fil</span>: 
+                                          <span id="pp">20000</span>XAF
+                                    </h5>
+                                    <button id="btn-panier3" class="mx-auto">Ajouter au panier</button>
+                              </div>
+                        </div>
+                  </section>
+            </div>
+      </div>
+
+      
+      <!-- scripting part -->
+      <script type="text/javascript" src="js/jquery-3.3.1.slim.min.js"></script>          
+      <!-- <script type="text/javascript" src="js/popper.min.js"></script> -->
+      <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+      <script type="text/javascript" src="js/main.js"></script>
+      <!-- scripting part -->
+</body>
+</html>
